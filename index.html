@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+</head>
+<body>
+    <h1>Google Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id = "name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <label for="file">upload a File:</label>
+        <input type="file" name="file" id="file" required>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        <br>
+        <label for="description">Description</label>
+        <input type="text" id="description" name="description" placeholder="Enter your description" required>
+        <br>
+        <label>Gender:</label>
+        <input type="radio" name="male" id="Gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="female" id="Gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="other" id="Gender" value="other">
+        <label for="other">Other</label>
+        <br>
+        <label>Hobby</label>
+        <input type="checkbox" name="coding" id="Hobby" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" name="sports" id="Hobby" value="sports">
+        <label for="sports">Sports</label>
+        <br>
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="usa">United States</option>
+            <option value="india">India</option>
+            <option value="uk">United Kingdom</option>
+        </select>
+        <br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
